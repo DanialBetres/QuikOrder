@@ -8,24 +8,18 @@ const styles = {
   };
 
   export default class SelectFieldExampleSimple extends Component {
-    state = {
-      value: 1,
-    };
-  
-    handleChange = (event, index, value) => this.setState({value});
-  
+
     render() {
       return (
         <div>
           <SelectField
             floatingLabelText="Frequency"
-            value={this.state.value}
-            onChange={this.handleChange}
+            onChange={this.props.onChange}
           >
             <MenuItem value={1} primaryText="St. Josephs" />
             <MenuItem value={2} primaryText="Salvation Army" />
             <MenuItem value={3} primaryText="House of Friendship" />
-         
+
           </SelectField>
         </div>
       )
