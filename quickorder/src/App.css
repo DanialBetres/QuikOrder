@@ -2,6 +2,16 @@
   text-align: center;
   background-color:#d0e6f4;
   width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.paper{
+  display:flex;
+  align-items: baseline;
+  justify-content:space-evenly;
+  flex-grow:2
 }
 
 
@@ -9,7 +19,25 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+body {
+  background-color:#d0e6f4;
 
+}
+.foodtitle{
+  margin-bottom: -1.5%;
+}
+.paper1{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button{
+  width:30%;
+  margin-left:35%;
+  margin-top:7%;
+}
 .App-header {
   background-color: #222;
   height: 150px;
