@@ -18,14 +18,15 @@ const styles = {
 
   export default class SelectFieldExampleSimple extends Component {
     state = {
-      value: 0,
+      value: 1,
     }
     render() {
       
       return (
         <div>
           <SelectField underlineStyle={styles.underlineStyle}
-            // floatingLabelText="Agency"
+
+            floatingLabelText="Agency"
             onChange={this._onChange}
             value={this.state.value} 
             hintText={"Please select your following Agency"}

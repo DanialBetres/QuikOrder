@@ -13,7 +13,10 @@
   justify-content:space-evenly;
   flex-grow:2
 }
-
+.agency {
+  text-align:left;
+  margin-left:570px;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
